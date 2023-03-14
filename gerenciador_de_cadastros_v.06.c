@@ -154,7 +154,8 @@ int main() //Menu inicial
 		printf("Bem-vindo(a). Escolha uma opção: \n\n");
 		printf("1 - Registrar usuário(s)\n");
 		printf("2 - Consultar usuário(s)\n");
-		printf("3 - Deletar usuário(s)\n\n");
+		printf("3 - Deletar usuário(s)\n");
+		printf("4 - Sair do sistema\n\n");
 		
 		printf(" -------------------------------------------------------------\n");
 		printf("| Esse Software é propriedade de 'Jhordan Ademir dos Santos'. |\n");
@@ -178,6 +179,11 @@ int main() //Menu inicial
 			
 			case 3:
 			deletar();
+			break;
+			
+			case 4:
+			printf("Obrigado por utlizar o sistema! \n");
+			return 0;
 			break;
 			
 			default:
